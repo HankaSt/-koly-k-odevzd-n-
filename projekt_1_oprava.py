@@ -35,8 +35,6 @@ else:
 
 """texty v seznamu, spočítat kolik jich tam je, vybrat minimální a maximální hodnotu indexu, 
 aby mohly být texty do proměnné přidávány/odebírány"""
-
-
 Texts = (
 """Situated about 10 miles west of Kemmerer,
 fossil Butte is a ruggedly impressive
@@ -80,7 +78,6 @@ if chosen_index not in range(1, len(Texts) + 1):
 
 
 """statistika"""
-
 chosen_text_clean = (Texts[chosen_index - 1].strip().split())
 titlecase = []
 uppercase = 0
@@ -113,7 +110,6 @@ print("The sum of all the numbers", numeric_sum)
 
 
 """sloupcový graf"""
-
 print(
         "-" * 40,"\n"
         "LEN|  OCCURENCES      |NR.""\n",
